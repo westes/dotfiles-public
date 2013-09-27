@@ -1,0 +1,71 @@
+set quit=yes
+set edit_headers=yes
+set fast_reply=yes
+hdr_order date from subject to cc reply-to
+ignore *
+unignore from: date subject to cc reply-to
+unignore Organization sender: Mail-Followup-To
+unignore Posted-To: X-Mailer: User-Agent: X-Newsreader:
+unignore resent- x-sender: x-spam-status:
+unignore List-
+set hdrs=yes
+set postpone=yes
+set recall=no
+set abort_nosubject=no
+set alias_file=~/.mutt/aliases
+set followup_to=yes
+set honor_followup_to=yes
+set ignore_list_reply_to=yes
+set dsn_notify=never
+set abort_unmodified=no
+set delete=yes
+set confirmappend=no
+set include=yes
+set autoedit=no
+set attribution="On %d, %f wrote:\n"
+set date_format="%A, %e %B %Y, %l:%M %P %Z"
+set help=no
+set mark_old=no
+set move=no
+set wait_key=no
+set reverse_name=no
+set reverse_realname=no
+set use_from=yes
+set hidden_host=yes
+set ascii_chars=yes
+set beep_new=yes
+set envelope_from=yes
+set metoo=no
+set save_empty=yes
+set smart_wrap=yes
+set reverse_alias=yes
+set pager_stop=yes
+set sendmail_wait=-1
+set forward_quote=no
+set mime_forward=no
+set mime_forward_decode=no
+set mime_forward_rest=yes
+set mail_check=300
+set timeout=15
+set connect_timeout=5
+set imap_keepalive=900
+set imap_passive=yes
+set index_format="%4C %Z %{%b %d} %-15.15L (%5c %s"
+set sort=date
+set hide_limited=yes
+set hide_missing=yes
+set resolve=no
+set sig_dashes=yes
+set sig_on_top=no
+set header_cache=~/var/mutt/header_cache
+set message_cachedir=~/var/mutt/message_cache
+set history_file=~/var/mutt/history
+set save_history=10
+set markers=no
+set smart_wrap=yes
+set certificate_file="~/.mutt/certificates"
+source ~/.mutt/keys
+source ~/.mutt/lists
+source ~/.mutt/aliases
+source ~/.mutt/accounts
+source ~/.mutt/profile.active
