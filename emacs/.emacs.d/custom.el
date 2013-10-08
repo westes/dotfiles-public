@@ -22,6 +22,7 @@
  '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("marmalade" . "http://marmalade-repo.org/packages/"))))
  '(package-enable-at-startup nil)
  '(puppet-indent-level 4)
+ '(python-remove-cwd-from-path nil)
  '(scroll-error-top-bottom t)
  '(speechd-out-active-drivers (quote (ssip)))
  '(speechd-speak-buffer-name t)
