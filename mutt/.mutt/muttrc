@@ -50,6 +50,7 @@ set timeout=15
 set connect_timeout=5
 set imap_keepalive=900
 set imap_passive=yes
+set imap_delim_chars=""
 set index_format="%4C %Z %{%b %d} %-15.15L (%5c %s"
 set sort=date
 set hide_limited=yes
