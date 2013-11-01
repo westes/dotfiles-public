@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=firefox -new-instance -P personal
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=firefox-personal
+Comment=firefox personal

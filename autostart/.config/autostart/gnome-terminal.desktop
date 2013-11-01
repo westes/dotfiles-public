@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/gnome-terminal
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_AU]=gnome-terminal
+Name=gnome-terminal
+Comment[en_AU]=accessible terminal
+Comment=accessible terminal
