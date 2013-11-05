@@ -1,0 +1,5 @@
+[user]
+	name = Will Estes
+	email = westes575@gmail.com
+[core]
+	excludesfile = ~/.gitignore
