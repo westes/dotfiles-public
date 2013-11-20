@@ -1,6 +1,16 @@
+# because using account-hook gets unwieldy at this scale, undo or unset everything we set anywhere in a profile
+
 unalternates *
 unmy_hdr *
-unset realname
+
 unset from
-unset spoolfile
+unset imap_pass
+unset imap_user
+unset mbox
+unset postponed
+unset query_command
+unset realname
+unset record
 unset signature
+unset smtp_url
+unset spoolfile

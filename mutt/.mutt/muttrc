@@ -1,6 +1,3 @@
-set quit=yes
-set edit_headers=yes
-set fast_reply=yes
 hdr_order date from subject to cc reply-to
 ignore *
 unignore from: date subject to cc reply-to
@@ -8,65 +5,72 @@ unignore Organization sender: Mail-Followup-To
 unignore Posted-To: X-Mailer: User-Agent: X-Newsreader:
 unignore resent- x-sender: x-spam-status:
 unignore List-
-set hdrs=yes
-set postpone=yes
-set recall=no
+
 set abort_nosubject=no
+set abort_unmodified=no
 set alias_file=~/.mutt/aliases
+set ascii_chars=yes
+set attribution="On %d, %f wrote:\n"
+set autoedit=no
+set beep_new=yes
+set certificate_file="~/.mutt/certificates"
+set confirmappend=no
+set connect_timeout=5
+set date_format="%A, %e %B %Y, %l:%M %P %Z"
+set delete=yes
+set dsn_notify=never
+set edit_headers=yes
+set editor=emacsclient
+set envelope_from=yes
+set fast_reply=yes
 set followup_to=yes
+set forward_quote=no
+set hdrs=yes
+set header_cache=~/var/cache/mutt/header_cache
+set help=no
+set hidden_host=yes
+set hide_limited=yes
+set hide_missing=yes
+set history_file=~/var/cache/mutt/history
 set honor_followup_to=yes
 set ignore_list_reply_to=yes
-set dsn_notify=never
-set abort_unmodified=no
-set delete=yes
-set confirmappend=no
+set imap_delim_chars=""
+set imap_keepalive=900
+set imap_passive=yes
 set include=yes
-set autoedit=no
-set attribution="On %d, %f wrote:\n"
-set date_format="%A, %e %B %Y, %l:%M %P %Z"
-set help=no
+set index_format="%4C %Z %{%b %d} %-15.15L (%5c %s"
+set mail_check=300
 set mark_old=no
-set move=no
-set wait_key=no
-set reverse_name=no
-set reverse_realname=no
-set use_from=yes
-set hidden_host=yes
-set ascii_chars=yes
-set beep_new=yes
-set envelope_from=yes
+set markers=no
+set message_cachedir=~/var/cache/mutt/message_cache
 set metoo=no
-set save_empty=yes
-set smart_wrap=yes
-set reverse_alias=yes
-set pager_stop=yes
-set sendmail_wait=-1
-set forward_quote=no
 set mime_forward=no
 set mime_forward_decode=no
 set mime_forward_rest=yes
-set mail_check=300
-set timeout=15
-set connect_timeout=5
-set imap_keepalive=900
-set imap_passive=yes
-set imap_delim_chars=""
-set index_format="%4C %Z %{%b %d} %-15.15L (%5c %s"
-set sort=date
-set hide_limited=yes
-set hide_missing=yes
+set move=no
+set pager_stop=yes
+set postpone=yes
+set quit=yes
+set recall=no
 set resolve=no
+set reverse_alias=yes
+set reverse_name=no
+set reverse_realname=no
+set save_empty=yes
+set save_history=10
+set sendmail_wait=-1
 set sig_dashes=yes
 set sig_on_top=no
-set header_cache=~/var/mutt/header_cache
-set message_cachedir=~/var/mutt/message_cache
-set history_file=~/var/mutt/history
-set save_history=10
-set markers=no
 set smart_wrap=yes
-set certificate_file="~/.mutt/certificates"
+set sort=date
+set timeout=15
+set use_from=yes
+set wait_key=no
+set xterm_set_titles=yes
+
 source ~/.mutt/keys
 source ~/.mutt/lists
 source ~/.mutt/aliases
-source ~/.mutt/accounts
+
+# finally, source the active profile since it may override settings from above
 source ~/.mutt/profile.active
