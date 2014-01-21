@@ -4,6 +4,8 @@
 
 (add-to-list 'load-path "~/share/emacs/")
 
+(require `unfill)
+
 (require `puppet-ext)
 (add-to-list 'auto-mode-alist '("\\.pp$" . puppet-mode))
 
