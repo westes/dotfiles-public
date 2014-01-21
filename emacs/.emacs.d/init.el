@@ -1,7 +1,9 @@
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
 (package-initialize)
+
 (add-to-list 'load-path "~/share/emacs/")
+
 (require `puppet-ext)
 (add-to-list 'auto-mode-alist '("\\.pp$" . puppet-mode))
 
