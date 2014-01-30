@@ -31,7 +31,7 @@
  '(speechd-speak-read-command-keys (quote (modification modification-movement)))
  '(speechd-speak-whole-line nil)
  '(tab-width 4)
- '(text-mode-hook (quote (turn-on-auto-fill text-mode-hook-identify)))
+ '(text-mode-hook (quote (longlines-mode text-mode-hook-identify)))
  '(uniquify-buffer-name-style (quote post-forward) nil (uniquify))
  '(uniquify-strip-common-suffix t))
 (custom-set-faces
