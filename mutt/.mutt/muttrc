@@ -61,7 +61,6 @@ set sendmail_wait=-1
 set sig_dashes=yes
 set sig_on_top=no
 set smart_wrap=yes
-set sort=threads
 set sort_aux=last-date-received
 set timeout=15
 set use_from=yes
