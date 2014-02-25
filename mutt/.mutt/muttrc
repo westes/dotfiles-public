@@ -8,7 +8,6 @@ unignore List-
 
 set abort_nosubject=no
 set abort_unmodified=no
-set alias_file=~/.mutt/aliases
 set ascii_chars=yes
 set attribution="On %d, %f wrote:\n"
 set autoedit=no
@@ -71,7 +70,6 @@ set xterm_set_titles=yes
 
 source ~/.mutt/keys
 source ~/.mutt/lists
-source ~/.mutt/aliases
 
 # finally, source the active profile since it may override settings from above
 source ~/.mutt/profile.active
