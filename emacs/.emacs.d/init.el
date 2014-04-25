@@ -17,6 +17,7 @@
 (speechd-speak-set-language "en-US")
 (speechd-set-rate 100 t)
 (speechd-set-punctuation-mode `all t)
+(speechd-set-volume 60 t)
 )
 (error
    (message "Cannot load speechd-el %s" (cdr err))))
