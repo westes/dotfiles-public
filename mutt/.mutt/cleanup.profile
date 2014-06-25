@@ -15,3 +15,4 @@ unset record
 unset signature
 unset smtp_url
 unset spoolfile
+unset trash
