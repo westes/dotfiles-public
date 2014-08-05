@@ -1,1 +1,2 @@
-QT_ACCESSIBILITY=1
+export QT_ACCESSIBILITY=1
+davmail &
