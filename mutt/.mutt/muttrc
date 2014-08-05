@@ -1,3 +1,4 @@
+auto_view text/html
 hdr_order from subject date to cc reply-to
 ignore *
 unignore from: date subject to cc reply-to
@@ -36,6 +37,7 @@ set ignore_list_reply_to=yes
 set imap_delim_chars=""
 set imap_keepalive=900
 set imap_passive=yes
+set implicit_autoview=yes
 set include=yes
 set index_format="%4C %Z %{%b %d} %-15.15L (%5c %s"
 set mail_check=300
