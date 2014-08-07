@@ -2,8 +2,10 @@
 
 unalternates *
 unmy_hdr *
+unalias *
 
 unset alias_file
+unset copy
 unset from
 unset imap_pass
 unset imap_user
