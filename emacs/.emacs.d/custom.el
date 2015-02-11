@@ -34,7 +34,8 @@
  '(tab-width 4)
  '(text-mode-hook (quote (longlines-mode text-mode-hook-identify)))
  '(uniquify-buffer-name-style (quote post-forward) nil (uniquify))
- '(uniquify-strip-common-suffix t))
+ '(uniquify-strip-common-suffix t)
+ '(view-read-only t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
