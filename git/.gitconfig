@@ -3,3 +3,5 @@
 	email = westes575@gmail.com
 [core]
 	excludesfile = ~/.gitignore
+[push]
+	default = simple
