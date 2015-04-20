@@ -5,3 +5,6 @@
 	excludesfile = ~/.gitignore
 [push]
 	default = simple
+[rerere]
+	enabled = true
+	autoupdate = true
