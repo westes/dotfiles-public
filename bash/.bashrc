@@ -10,12 +10,15 @@ esac
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
 
+# save multiline commands on one line, using semi-colons where needed
+shopt -s cmdhist
+
 # append to the history file, don't overwrite it
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=-1
+HISTFILESIZE=-1
 HISTTIMEFORMAT='%F %T'
 
 # check the window size after each command and, if necessary,
