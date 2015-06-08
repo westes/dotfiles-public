@@ -1,4 +1,6 @@
 auto_view text/html
+alternative_order text/plain text/enriched text/html     # save html for last
+
 hdr_order from subject date to cc reply-to
 ignore *
 unignore from: date subject to cc reply-to
