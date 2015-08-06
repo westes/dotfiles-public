@@ -21,7 +21,11 @@
  '(line-number-mode t)
  '(next-screen-context-lines 0)
  '(nxml-slash-auto-complete-flag t)
- '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("marmalade" . "http://marmalade-repo.org/packages/"))))
+ '(org-catch-invisible-edits (quote smart))
+ '(package-archives
+   (quote
+    (("gnu" . "http://elpa.gnu.org/packages/")
+     ("marmalade" . "http://marmalade-repo.org/packages/"))))
  '(package-enable-at-startup nil)
  '(puppet-indent-level 2)
  '(python-remove-cwd-from-path nil)
