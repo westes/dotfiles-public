@@ -1,10 +1,14 @@
 [Desktop Entry]
+Name=Terminal
+Comment=Use the command line
+Keywords=shell;prompt;command;commandline;
+TryExec=gnome-terminal
+Exec=gnome-terminal
+Icon=utilities-terminal
 Type=Application
-Exec=/usr/bin/gnome-terminal
-Hidden=false
-NoDisplay=false
-X-GNOME-Autostart-enabled=true
-Name[en_AU]=gnome-terminal
-Name=gnome-terminal
-Comment[en_AU]=accessible terminal
-Comment=accessible terminal
+Categories=GNOME;GTK;System;TerminalEmulator;
+StartupNotify=true
+X-GNOME-SingleWindow=false
+OnlyShowIn=GNOME;Unity;
+Actions=New
+X-Ubuntu-Gettext-Domain=gnome-terminal
