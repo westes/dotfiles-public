@@ -15,10 +15,9 @@
 (speechd-set-volume 25 t)
 )
 (error
-   (message "Cannot load speechd-el %s" (cdr err))))(require `unfill)
+ (message "Cannot load speechd-el %s" (cdr err))))
 
-(require `puppet-ext)
-(add-to-list 'auto-mode-alist '("\\.pp$" . puppet-mode))
+(require `unfill)
 
 (add-hook 'comint-output-filter-functions 'comint-strip-ctrl-m) 
 
@@ -46,9 +45,16 @@
                                         ; turn off character composition
 (global-auto-composition-mode -1)
 
+(global-set-key (kbd "C-x g") 'magit-status)
+
  (add-to-list 'auto-mode-alist '("\\.ledger$" . ledger-mode))
 
 ;; Mutt support.
 (setq auto-mode-alist (append '(("/tmp/mutt.*" . mail-mode)) auto-mode-alist))
 
+     (setq calendar-latitude 33.9)
+     (setq calendar-longitude -84.3)
+     (setq calendar-location-name "Dunwoody, GA")
+
 (server-start)
+(put 'narrow-to-region 'disabled nil)
